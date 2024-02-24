@@ -12,7 +12,7 @@ export default function Header() {
                 <Link href={"/"}>Projects</Link>
                 <Link href={"/gallery"}>Gallery</Link>
                 <Link href={"/testimonials"}>Testimonails</Link>
-                <Link href={"/"}>Get a Quote</Link>
+                <Link href={"/estimation"}>Get a Quote</Link>
             </div>
             <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
                 <span>{"Let's"} Connect</span>

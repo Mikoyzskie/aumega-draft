@@ -52,13 +52,13 @@ export const HeroParallax = ({
         springConfig
     );
     const translateY = useSpring(
-        useTransform(scrollYProgress, [0, 0.2], [-1100, 80]),
+        useTransform(scrollYProgress, [0, 0.2], [-1100, -50]),
         springConfig
     );
     return (
         <div
             ref={ref}
-            className="h-[220vh] overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+            className="h-[260vh] overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
         >
             <Header />
             <motion.div
@@ -104,9 +104,9 @@ export const HeroParallax = ({
 
 export const Header = () => {
     return (
-        <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full left-0 top-0 z-10 mt-[75px]">
+        <div className="max-w-7xl relative mx-auto px-4 w-full left-0 top-0 z-10 h-full min-h-[calc(100vh - 85.6px)]">
 
-            <div className="relative">
+            <div className="relative flex flex-col justify-center h-full">
                 <h1 className={`text-2xl md:text-7xl font-bold dark:text-white`}>
                     Elevate Your Space <br /> With Timeless Beauty
                 </h1>
