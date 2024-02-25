@@ -1,13 +1,13 @@
 import { Hero } from "@/components/Hero";
 import Image from "next/image";
 
+import Testimonial from "@/components/Testimonial";
+
 export default function Home() {
   return (
     <main>
       <Hero />
-      <section className="py-32">
-
-      </section>
+      <Testimonial />
     </main>
   );
 }
