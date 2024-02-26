@@ -10,6 +10,7 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { righteous } from "@/app/font"
+import HeroBanner from "../HeroBanner";
 
 
 export const HeroParallax = ({
@@ -52,7 +53,7 @@ export const HeroParallax = ({
         springConfig
     );
     const translateY = useSpring(
-        useTransform(scrollYProgress, [0, 0.2], [-1100, -40]),
+        useTransform(scrollYProgress, [0, 0.2], [-1100, 30]),
         springConfig
     );
     return (
@@ -104,29 +105,9 @@ export const HeroParallax = ({
 
 export const Header = () => {
     return (
-        <div className="max-w-7xl relative mx-auto px-4 w-full left-0 top-0 z-10 min-h-[calc(100vh-85.6px)] flex flex-col justify-center">
-
-            <div className="relative flex flex-col justify-center h-full">
-                <h1 className={`text-2xl md:text-7xl font-bold dark:text-white hero-text text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-pink-600`}>
-                    Elevate Your Space <br /> With Timeless Beauty
-                </h1>
-                <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-                    Elevate your space with the timeless allure of wood veneers, infusing warmth and sophistication into every corner. Embrace {"nature's"} elegance and elevate your interior design aesthetic effortlessly.
-                </p>
-
-                <div className="mt-11 flex gap-3">
-                    <button className="border  px-10 py-5 text-xs uppercase font-bold hero-button text-white bg-gradient-to-r from-orange-400 to-pink-600">Contact Us</button>
-                    <button className="border border-orange-400 px-10 py-5 text-xs uppercase font-bold hero-button "><h1 className="text-orange-400">GET A QUOTE</h1></button>
-                </div>
-                {/* <Image
-                    src={"/heroes.png"}
-                    alt="hero element"
-                    width={700}
-                    height={397}
-                    className="absolute right-0 top-0 -z-[1]"
-                /> */}
-            </div>
-        </div>
+        <>
+            <HeroBanner />
+        </>
     );
 };
 
