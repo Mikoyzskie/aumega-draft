@@ -68,11 +68,11 @@ export default function HeroBanner() {
                                 <div className="sm:flex items-center">
                                     <a
                                         className="relative group inline-block w-full sm:w-auto py-4 px-6 text-white font-semibold bg-orange-900 rounded-md overflow-hidden"
-                                        href="#"
+                                        href="/estimation"
                                     >
                                         <div className="absolute top-0 right-full w-full h-full bg-gray-900 transform group-hover:translate-x-full group-hover:scale-102 transition duration-500" />
                                         <div className="relative flex items-center justify-center">
-                                            <span className="mr-4">Meet The Expert</span>
+                                            <span className="mr-4">Get A Quote</span>
                                             <span>
                                                 <svg
                                                     width={8}
@@ -89,28 +89,34 @@ export default function HeroBanner() {
                                             </span>
                                         </div>
                                     </a>
-                                    <div className="flex mt-8 sm:mt-0 sm:ml-8 items-center">
-                                        <img
-                                            className="w-10 h-10"
-                                            src="https://shuffle.dev/saturn-assets/images/headers/avatar4.png"
-                                            alt=""
-                                        />
-                                        <img
-                                            className="w-10 -ml-2 h-10"
-                                            src="https://shuffle.dev/saturn-assets/images/headers/avatar3.png"
-                                            alt=""
-                                        />
-                                        <img
-                                            className="w-10 -ml-2 h-10"
-                                            src="https://shuffle.dev/saturn-assets/images/headers/avatar2.png"
-                                            alt=""
-                                        />
-                                        <img
-                                            className="w-10 -ml-2 h-10"
-                                            src="https://shuffle.dev/saturn-assets/images/headers/avatar1.png"
-                                            alt=""
-                                        />
-                                    </div>
+                                    <a href="/projects" className='py-4 px-6 font-semibold group flex gap-5 items-center'>PROJECTS
+                                        <span className="group-hover:rotate-45 transform transition duration-100">
+                                            <svg
+                                                width={11}
+                                                height={11}
+                                                viewBox="0 0 11 11"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <path
+                                                    d="M9.5 1.5L1.5 9.5"
+                                                    stroke="black"
+                                                    strokeWidth="1.3"
+                                                    strokeMiterlimit={10}
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                />
+                                                <path
+                                                    d="M9.5 8.83571V1.5H2.16429"
+                                                    stroke="black"
+                                                    strokeWidth="1.3"
+                                                    strokeMiterlimit={10}
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                />
+                                            </svg>
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
                         </div>

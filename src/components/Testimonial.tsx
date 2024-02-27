@@ -3,7 +3,7 @@ import { righteous } from "@/app/font"
 
 export default function Testimonial() {
     return (
-        <section className="relative pt-24 pb-24 lg:pb-20 lg:pt-32 overflow-hidden">
+        <section className="relative pb-24 lg:pb-20 overflow-hidden">
             <img
                 className="absolute top-0 left-0"
                 src="saturn-assets/images/testimonials/blue-light.png"
@@ -21,8 +21,8 @@ export default function Testimonial() {
                             TESTIMONIALS
                         </span>
                         <h1 className="font-heading text-4xl xs:text-6xl font-bold text-gray-900 mb-6">
-                            <span>Customer said about</span>
-                            <span className="font-serif italic">Saturn</span>
+                            <span>Customer said about </span>
+                            <span className="font-serif italic">Aumega</span>
                         </h1>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ export default function Testimonial() {
                             <div className="flex mb-6 items-center">
                                 <img
                                     className="block w-15 h-15 rounded-full"
-                                    src="saturn-assets/images/testimonials/avatar-group-3.png"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/avatar-group-4.png"
                                     alt=""
                                 />
                                 <div className="ml-5">
@@ -47,33 +47,32 @@ export default function Testimonial() {
                                 </div>
                             </div>
                             <p className="text-sm text-gray-900 mb-6">
-                                It was a pleasure working with the Saturn. They understood the brief
-                                correctly and delivered great designs exceeding the expectations.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eligendi nostrum ut at eius aliquam voluptatum laboriosam, officiis voluptas possimus.
                             </p>
                             <div className="flex items-center">
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                             </div>
@@ -84,7 +83,7 @@ export default function Testimonial() {
                             <div className="flex mb-6 items-center">
                                 <img
                                     className="block w-15 h-15 rounded-full"
-                                    src="saturn-assets/images/testimonials/avatar-group-3.png"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/avatar-group-4.png"
                                     alt=""
                                 />
                                 <div className="ml-5">
@@ -97,33 +96,32 @@ export default function Testimonial() {
                                 </div>
                             </div>
                             <p className="text-sm text-gray-900 mb-6">
-                                It was a pleasure working with the Saturn. They understood the brief
-                                correctly and delivered great designs exceeding the expectations.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eligendi nostrum ut at eius aliquam voluptatum laboriosam, officiis voluptas possimus.
                             </p>
                             <div className="flex items-center">
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                             </div>
@@ -134,7 +132,7 @@ export default function Testimonial() {
                             <div className="flex mb-6 items-center">
                                 <img
                                     className="block w-15 h-15 rounded-full"
-                                    src="saturn-assets/images/testimonials/avatar-group-1.png"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/avatar-group-4.png"
                                     alt=""
                                 />
                                 <div className="ml-5">
@@ -147,33 +145,32 @@ export default function Testimonial() {
                                 </div>
                             </div>
                             <p className="text-sm text-gray-900 mb-6">
-                                It was a pleasure working with the Saturn. They understood the brief
-                                correctly and delivered great designs exceeding the expectations.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eligendi nostrum ut at eius aliquam voluptatum laboriosam, officiis voluptas possimus.
                             </p>
                             <div className="flex items-center">
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                             </div>
@@ -184,7 +181,7 @@ export default function Testimonial() {
                             <div className="flex mb-6 items-center">
                                 <img
                                     className="block w-15 h-15 rounded-full"
-                                    src="saturn-assets/images/testimonials/avatar-group-4.png"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/avatar-group-4.png"
                                     alt=""
                                 />
                                 <div className="ml-5">
@@ -197,33 +194,32 @@ export default function Testimonial() {
                                 </div>
                             </div>
                             <p className="text-sm text-gray-900 mb-6">
-                                It was a pleasure working with the Saturn. They understood the brief
-                                correctly and delivered great designs exceeding the expectations.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eligendi nostrum ut at eius aliquam voluptatum laboriosam, officiis voluptas possimus.
                             </p>
                             <div className="flex items-center">
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                             </div>
@@ -234,7 +230,7 @@ export default function Testimonial() {
                             <div className="flex mb-6 items-center">
                                 <img
                                     className="block w-15 h-15 rounded-full"
-                                    src="saturn-assets/images/testimonials/avatar-group-5.png"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/avatar-group-4.png"
                                     alt=""
                                 />
                                 <div className="ml-5">
@@ -247,33 +243,32 @@ export default function Testimonial() {
                                 </div>
                             </div>
                             <p className="text-sm text-gray-900 mb-6">
-                                It was a pleasure working with the Saturn. They understood the brief
-                                correctly and delivered great designs exceeding the expectations.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eligendi nostrum ut at eius aliquam voluptatum laboriosam, officiis voluptas possimus.
                             </p>
                             <div className="flex items-center">
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                             </div>
@@ -284,7 +279,7 @@ export default function Testimonial() {
                             <div className="flex mb-6 items-center">
                                 <img
                                     className="block w-15 h-15 rounded-full"
-                                    src="saturn-assets/images/testimonials/avatar-group-3.png"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/avatar-group-4.png"
                                     alt=""
                                 />
                                 <div className="ml-5">
@@ -297,33 +292,32 @@ export default function Testimonial() {
                                 </div>
                             </div>
                             <p className="text-sm text-gray-900 mb-6">
-                                It was a pleasure working with the Saturn. They understood the brief
-                                correctly and delivered great designs exceeding the expectations.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eligendi nostrum ut at eius aliquam voluptatum laboriosam, officiis voluptas possimus.
                             </p>
                             <div className="flex items-center">
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                             </div>
@@ -336,7 +330,7 @@ export default function Testimonial() {
                             <div className="flex mb-6 items-center">
                                 <img
                                     className="block w-15 h-15 rounded-full"
-                                    src="saturn-assets/images/testimonials/avatar-group-3.png"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/avatar-group-4.png"
                                     alt=""
                                 />
                                 <div className="ml-5">
@@ -349,33 +343,32 @@ export default function Testimonial() {
                                 </div>
                             </div>
                             <p className="text-sm text-gray-900 mb-6">
-                                It was a pleasure working with the Saturn. They understood the brief
-                                correctly and delivered great designs exceeding the expectations.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eligendi nostrum ut at eius aliquam voluptatum laboriosam, officiis voluptas possimus.
                             </p>
                             <div className="flex items-center">
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                             </div>
@@ -386,7 +379,7 @@ export default function Testimonial() {
                             <div className="flex mb-6 items-center">
                                 <img
                                     className="block w-15 h-15 rounded-full"
-                                    src="saturn-assets/images/testimonials/avatar-group-7.png"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/avatar-group-4.png"
                                     alt=""
                                 />
                                 <div className="ml-5">
@@ -399,33 +392,32 @@ export default function Testimonial() {
                                 </div>
                             </div>
                             <p className="text-sm text-gray-900 mb-6">
-                                It was a pleasure working with the Saturn. They understood the brief
-                                correctly and delivered great designs exceeding the expectations.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eligendi nostrum ut at eius aliquam voluptatum laboriosam, officiis voluptas possimus.
                             </p>
                             <div className="flex items-center">
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                             </div>
@@ -436,7 +428,7 @@ export default function Testimonial() {
                             <div className="flex mb-6 items-center">
                                 <img
                                     className="block w-15 h-15 rounded-full"
-                                    src="saturn-assets/images/testimonials/avatar-group-5.png"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/avatar-group-4.png"
                                     alt=""
                                 />
                                 <div className="ml-5">
@@ -449,33 +441,32 @@ export default function Testimonial() {
                                 </div>
                             </div>
                             <p className="text-sm text-gray-900 mb-6">
-                                It was a pleasure working with the Saturn. They understood the brief
-                                correctly and delivered great designs exceeding the expectations.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eligendi nostrum ut at eius aliquam voluptatum laboriosam, officiis voluptas possimus.
                             </p>
                             <div className="flex items-center">
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                             </div>
@@ -486,7 +477,7 @@ export default function Testimonial() {
                             <div className="flex mb-6 items-center">
                                 <img
                                     className="block w-15 h-15 rounded-full"
-                                    src="saturn-assets/images/testimonials/avatar-group-6.png"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/avatar-group-4.png"
                                     alt=""
                                 />
                                 <div className="ml-5">
@@ -499,33 +490,32 @@ export default function Testimonial() {
                                 </div>
                             </div>
                             <p className="text-sm text-gray-900 mb-6">
-                                It was a pleasure working with the Saturn. They understood the brief
-                                correctly and delivered great designs exceeding the expectations.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eligendi nostrum ut at eius aliquam voluptatum laboriosam, officiis voluptas possimus.
                             </p>
                             <div className="flex items-center">
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                             </div>
@@ -536,7 +526,7 @@ export default function Testimonial() {
                             <div className="flex mb-6 items-center">
                                 <img
                                     className="block w-15 h-15 rounded-full"
-                                    src="saturn-assets/images/testimonials/avatar-group-1.png"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/avatar-group-4.png"
                                     alt=""
                                 />
                                 <div className="ml-5">
@@ -549,46 +539,45 @@ export default function Testimonial() {
                                 </div>
                             </div>
                             <p className="text-sm text-gray-900 mb-6">
-                                It was a pleasure working with the Saturn. They understood the brief
-                                correctly and delivered great designs exceeding the expectations.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eligendi nostrum ut at eius aliquam voluptatum laboriosam, officiis voluptas possimus.
                             </p>
                             <div className="flex items-center">
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                                 <img
                                     className="block mr-1.5"
-                                    src="saturn-assets/images/testimonials/star.svg"
+                                    src="https://shuffle.dev/saturn-assets/images/testimonials/star.svg"
                                     alt=""
                                 />
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="px-5">
+                {/* <div className="px-5">
                     <div className="flex items-center justify-center">
                         <button className="inline-block mr-1 w-7 h-1 bg-orange-900" />
                         <button className="inline-block mr-1 w-7 h-1 bg-gray-400 hover:bg-orange-300" />
                         <button className="inline-block w-7 h-1 bg-gray-400 hover:bg-orange-300" />
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
 

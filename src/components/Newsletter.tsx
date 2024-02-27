@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Newsletter() {
     return (
-        <div className="relative container px-4 mx-auto">
-            <div className="max-w-7xl mx-auto px-8 md:px-16 py-12 sm:py-20 bg-gray-900 rounded-4xl">
+        <div className="relative container pb-24 px-4 mx-auto ">
+            <div className="max-w-7xl mx-auto px-8 md:px-16 py-12 sm:py-20 bg-gray-900 rounded-4xl rounded-[30px]">
                 <div className="flex flex-wrap -mx-4">
                     <div className="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
                         <div className="max-w-lg mx-auto">
@@ -22,7 +22,7 @@ export default function Newsletter() {
                                 <input
                                     className="w-full mb-3 sm:mb-0 sm:mr-4 py-3 px-4 text-sm text-gray-900 placeholder-gray-400 border border-gray-200 focus:border-purple-500 focus:outline-purple rounded-lg"
                                     type="email"
-                                    placeholder="pat@saturn.dev"
+                                    placeholder="pat@aumega.works"
                                 />
                                 <button
                                     className="relative group inline-block flex-shrink-0 w-full sm:w-auto py-3 px-5 text-sm font-semibold text-orange-50 hover:text-orange-900 bg-orange-900 rounded-md transition duration-300 overflow-hidden"

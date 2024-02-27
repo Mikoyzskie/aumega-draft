@@ -10,7 +10,7 @@ export default function Header() {
                     <h2 className={`text-2xl ${righteous.className}`}>AUMEGA</h2>
                 </Link>
                 <div className='flex gap-10 uppercase text-xs font-bold tracking-wider'>
-                    <Link href={"/"}>Projects</Link>
+                    <Link href={"/projects"}>Projects</Link>
                     <Link href={"/gallery"}>Gallery</Link>
                     <Link href={"/testimonials"}>Testimonails</Link>
                     <Link href={"/estimation"}>Get a Quote</Link>

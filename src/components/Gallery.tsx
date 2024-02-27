@@ -1,34 +1,308 @@
-"use client";
-import { ParallaxScroll } from "@/components/ui/parallax-scroll";
+import React from 'react'
 
-export function Gallery() {
-    return <ParallaxScroll images={images} />;
+export default function Gallery() {
+    return (
+        <section className="relative py-20 md:py-32 overflow-hidden">
+            <img
+                className="absolute top-0 left-0 mt-4"
+                src="saturn-assets/images/content/stars-left-top.svg"
+                alt=""
+            />
+            <img
+                className="absolute top-0 right-0 mt-40"
+                src="saturn-assets/images/content/blue-light-right.png"
+                alt=""
+            />
+            <div className="relative container px-4 mx-auto">
+                <div className="relative max-w-7xl mx-auto">
+                    <div className="text-center mb-18">
+                        <span className="inline-block py-1 px-3 mb-4 text-xs font-semibold text-orange-900 bg-orange-50 rounded-full">
+                            GALLERY
+                        </span>
+                        <h1 className="font-heading text-5xl xs:text-6xl md:text-7xl font-bold text-gray-900 mb-4">
+                            <span>Follow us on</span>
+                            <span className="font-serif italic"> instagram</span>
+                        </h1>
+                        <p className="text-gray-500">
+                            Risus viverra justo sagittis vestibulum metus.
+                        </p>
+                    </div>
+                    <div className="flex flex-wrap -mx-4 -mb-8">
+                        <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-4 mb-8">
+                            <a
+                                className="group block max-w-sm mx-auto md:max-w-none h-full border border-gray-100 bg-white rounded-xl transform hover:scale-105 transition duration-500"
+                                href="#"
+                            >
+                                <div className="flex items-center justify-between px-4 py-5">
+                                    <span className="text-sm">@saturn_ui</span>
+                                    <img
+                                        src="https://shuffle.dev/saturn-assets/images/instagram-photos/icon-instagram.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div className="h-72">
+                                    <img
+                                        className="block w-full h-full"
+                                        src="/1.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div className="px-4 pt-4 pb-5">
+                                    <span className="block text-sm tetx-gray-800 mb-2.5">
+                                        This is example post
+                                    </span>
+                                    <div className="flex items-center">
+                                        <img
+                                            className="mr-1.5"
+                                            src="https://shuffle.dev/saturn-assets/images/instagram-photos/heart-icon.svg"
+                                            alt=""
+                                        />
+                                        <span className="text-sm text-gray-500">12.903</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-4 mb-8">
+                            <a
+                                className="group block max-w-sm mx-auto md:max-w-none h-full border border-gray-100 bg-white rounded-xl transform hover:scale-105 transition duration-500"
+                                href="#"
+                            >
+                                <div className="flex items-center justify-between px-4 py-5">
+                                    <span className="text-sm">@saturn_ui</span>
+                                    <img
+                                        src="https://shuffle.dev/saturn-assets/images/instagram-photos/icon-instagram.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div className="h-72">
+                                    <img
+                                        className="block w-full h-full"
+                                        src="/1.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div className="px-4 pt-4 pb-5">
+                                    <span className="block text-sm tetx-gray-800 mb-2.5">
+                                        This is example post
+                                    </span>
+                                    <div className="flex items-center">
+                                        <img
+                                            className="mr-1.5"
+                                            src="https://shuffle.dev/saturn-assets/images/instagram-photos/heart-icon.svg"
+                                            alt=""
+                                        />
+                                        <span className="text-sm text-gray-500">12.903</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-4 mb-8">
+                            <a
+                                className="group block max-w-sm mx-auto md:max-w-none h-full border border-gray-100 bg-white rounded-xl transform hover:scale-105 transition duration-500"
+                                href="#"
+                            >
+                                <div className="flex items-center justify-between px-4 py-5">
+                                    <span className="text-sm">@saturn_ui</span>
+                                    <img
+                                        src="https://shuffle.dev/saturn-assets/images/instagram-photos/icon-instagram.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div className="h-72">
+                                    <img
+                                        className="block w-full h-full"
+                                        src="/1.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div className="px-4 pt-4 pb-5">
+                                    <span className="block text-sm tetx-gray-800 mb-2.5">
+                                        This is example post
+                                    </span>
+                                    <div className="flex items-center">
+                                        <img
+                                            className="mr-1.5"
+                                            src="https://shuffle.dev/saturn-assets/images/instagram-photos/heart-icon.svg"
+                                            alt=""
+                                        />
+                                        <span className="text-sm text-gray-500">12.903</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-4 mb-8">
+                            <a
+                                className="group block max-w-sm mx-auto md:max-w-none h-full border border-gray-100 bg-white rounded-xl transform hover:scale-105 transition duration-500"
+                                href="#"
+                            >
+                                <div className="flex items-center justify-between px-4 py-5">
+                                    <span className="text-sm">@saturn_ui</span>
+                                    <img
+                                        src="https://shuffle.dev/saturn-assets/images/instagram-photos/icon-instagram.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div className="h-72">
+                                    <img
+                                        className="block w-full h-full"
+                                        src="/1.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div className="px-4 pt-4 pb-5">
+                                    <span className="block text-sm tetx-gray-800 mb-2.5">
+                                        This is example post
+                                    </span>
+                                    <div className="flex items-center">
+                                        <img
+                                            className="mr-1.5"
+                                            src="https://shuffle.dev/saturn-assets/images/instagram-photos/heart-icon.svg"
+                                            alt=""
+                                        />
+                                        <span className="text-sm text-gray-500">12.903</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-4 mb-8">
+                            <a
+                                className="group block max-w-sm mx-auto md:max-w-none h-full border border-gray-100 bg-white rounded-xl transform hover:scale-105 transition duration-500"
+                                href="#"
+                            >
+                                <div className="flex items-center justify-between px-4 py-5">
+                                    <span className="text-sm">@saturn_ui</span>
+                                    <img
+                                        src="https://shuffle.dev/saturn-assets/images/instagram-photos/icon-instagram.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div className="h-72">
+                                    <img
+                                        className="block w-full h-full"
+                                        src="/1.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div className="px-4 pt-4 pb-5">
+                                    <span className="block text-sm tetx-gray-800 mb-2.5">
+                                        This is example post
+                                    </span>
+                                    <div className="flex items-center">
+                                        <img
+                                            className="mr-1.5"
+                                            src="https://shuffle.dev/saturn-assets/images/instagram-photos/heart-icon.svg"
+                                            alt=""
+                                        />
+                                        <span className="text-sm text-gray-500">12.903</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-4 mb-8">
+                            <a
+                                className="group block max-w-sm mx-auto md:max-w-none h-full border border-gray-100 bg-white rounded-xl transform hover:scale-105 transition duration-500"
+                                href="#"
+                            >
+                                <div className="flex items-center justify-between px-4 py-5">
+                                    <span className="text-sm">@saturn_ui</span>
+                                    <img
+                                        src="https://shuffle.dev/saturn-assets/images/instagram-photos/icon-instagram.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div className="h-72">
+                                    <img
+                                        className="block w-full h-full"
+                                        src="/1.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div className="px-4 pt-4 pb-5">
+                                    <span className="block text-sm tetx-gray-800 mb-2.5">
+                                        This is example post
+                                    </span>
+                                    <div className="flex items-center">
+                                        <img
+                                            className="mr-1.5"
+                                            src="https://shuffle.dev/saturn-assets/images/instagram-photos/heart-icon.svg"
+                                            alt=""
+                                        />
+                                        <span className="text-sm text-gray-500">12.903</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-4 mb-8">
+                            <a
+                                className="group block max-w-sm mx-auto md:max-w-none h-full border border-gray-100 bg-white rounded-xl transform hover:scale-105 transition duration-500"
+                                href="#"
+                            >
+                                <div className="flex items-center justify-between px-4 py-5">
+                                    <span className="text-sm">@saturn_ui</span>
+                                    <img
+                                        src="https://shuffle.dev/saturn-assets/images/instagram-photos/icon-instagram.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div className="h-72">
+                                    <img
+                                        className="block w-full h-full"
+                                        src="/1.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div className="px-4 pt-4 pb-5">
+                                    <span className="block text-sm tetx-gray-800 mb-2.5">
+                                        This is example post
+                                    </span>
+                                    <div className="flex items-center">
+                                        <img
+                                            className="mr-1.5"
+                                            src="https://shuffle.dev/saturn-assets/images/instagram-photos/heart-icon.svg"
+                                            alt=""
+                                        />
+                                        <span className="text-sm text-gray-500">12.903</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-4 mb-8">
+                            <a
+                                className="group block max-w-sm mx-auto md:max-w-none h-full border border-gray-100 bg-white rounded-xl transform hover:scale-105 transition duration-500"
+                                href="#"
+                            >
+                                <div className="flex items-center justify-between px-4 py-5">
+                                    <span className="text-sm">@saturn_ui</span>
+                                    <img
+                                        src="https://shuffle.dev/saturn-assets/images/instagram-photos/icon-instagram.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div className="h-72">
+                                    <img
+                                        className="block w-full h-full"
+                                        src="/1.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div className="px-4 pt-4 pb-5">
+                                    <span className="block text-sm tetx-gray-800 mb-2.5">
+                                        This is example post
+                                    </span>
+                                    <div className="flex items-center">
+                                        <img
+                                            className="mr-1.5"
+                                            src="https://shuffle.dev/saturn-assets/images/instagram-photos/heart-icon.svg"
+                                            alt=""
+                                        />
+                                        <span className="text-sm text-gray-500">12.903</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    )
 }
-
-const images = [
-    "https://images.unsplash.com/photo-1554080353-a576cf803bda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
-    "https://images.unsplash.com/photo-1505144808419-1957a94ca61e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3070&q=80",
-    "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-    "https://images.unsplash.com/photo-1554080353-a576cf803bda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
-    "https://images.unsplash.com/photo-1505144808419-1957a94ca61e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3070&q=80",
-    "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-    "https://images.unsplash.com/photo-1682686581854-5e71f58e7e3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-    "https://images.unsplash.com/photo-1510784722466-f2aa9c52fff6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-    "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-    "https://images.unsplash.com/photo-1439853949127-fa647821eba0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2640&q=80",
-    "https://images.unsplash.com/photo-1554080353-a576cf803bda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
-    "https://images.unsplash.com/photo-1505144808419-1957a94ca61e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3070&q=80",
-    "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-    "https://images.unsplash.com/photo-1554080353-a576cf803bda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
-    "https://images.unsplash.com/photo-1505144808419-1957a94ca61e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3070&q=80",
-    "https://images.unsplash.com/photo-1554080353-a576cf803bda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
-    "https://images.unsplash.com/photo-1505144808419-1957a94ca61e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3070&q=80",
-    "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-    "https://images.unsplash.com/photo-1554080353-a576cf803bda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
-    "https://images.unsplash.com/photo-1505144808419-1957a94ca61e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3070&q=80",
-    "https://images.unsplash.com/photo-1554080353-a576cf803bda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
-    "https://images.unsplash.com/photo-1505144808419-1957a94ca61e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3070&q=80",
-    "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-    "https://images.unsplash.com/photo-1554080353-a576cf803bda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
-    "https://images.unsplash.com/photo-1505144808419-1957a94ca61e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3070&q=80",
-];
