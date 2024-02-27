@@ -15,10 +15,10 @@ export default function Header() {
                     <Link href={"/testimonials"}>Testimonails</Link>
                     <Link href={"/estimation"}>Get a Quote</Link>
                 </div>
-                <button className="border text-xs relative bg-gradient-to-r from-orange-400 to-pink-600 text-white heading font-bold uppercase px-4 py-4 rounded-full">
+                <a href='/contact' className="border text-xs relative bg-gradient-to-r from-orange-400 to-pink-600 text-white heading font-bold uppercase px-4 py-4 rounded-full">
                     <span>{"Let's"} Connect</span>
                     <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
-                </button>
+                </a>
             </div>
         </header>
     )

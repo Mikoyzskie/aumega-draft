@@ -60,7 +60,7 @@ export default function About() {
                     </div>
                     <div className="w-full md:w-1/2 lg:w-1/4 py-8">
                         <div className="lg:border-r border-gray-200 px-12">
-                            <p className="text-gray-600 mb-2 text-center">Total funding</p>
+                            <p className="text-gray-600 mb-2 text-center">Total Earnings</p>
                             <h2 className="text-4xl lg:text-5xl font-semibold text-center">
                                 $9.6M
                             </h2>
@@ -68,7 +68,7 @@ export default function About() {
                     </div>
                     <div className="w-full md:w-1/2 lg:w-1/4 py-8">
                         <div className="md:border-r border-gray-200 px-12">
-                            <p className="text-gray-600 mb-2 text-center">Team members</p>
+                            <p className="text-gray-600 mb-2 text-center">Team Projects</p>
                             <h2 className="text-4xl lg:text-5xl font-semibold text-center">
                                 110
                             </h2>
@@ -76,7 +76,7 @@ export default function About() {
                     </div>
                     <div className="w-full md:w-1/2 lg:w-1/4 py-8">
                         <div className="px-12">
-                            <p className="text-gray-600 mb-2 text-center">Nationalities</p>
+                            <p className="text-gray-600 mb-2 text-center">Positive Reviews</p>
                             <h2 className="text-4xl lg:text-5xl font-semibold text-center">24</h2>
                         </div>
                     </div>

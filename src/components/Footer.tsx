@@ -12,11 +12,11 @@ export default function Footer() {
 
     const navs = [
         { name: "home", link: "/" },
-        { name: "projects", link: "/" },
+        { name: "projects", link: "/projects" },
         { name: "gallery", link: "/gallery" },
         { name: "testimonials", link: "/testimonials" },
         { name: "get a quote", link: "/estimation" },
-        { name: "contact us", link: "/" },
+        { name: "contact us", link: "/contact" },
     ]
 
 
