@@ -27,9 +27,9 @@ export default function Footer() {
 
                 <div className='w-[101px] h-1 absolute top-0 left-0 bg-[#d87d4a]'></div>
 
-                <div className='flex justify-between items-center mb-9 pt-[75px]'>
+                <div className='flex flex-col md:flex-row justify-between items-center mb-9 pt-[75px] gap-10'>
                     <h2 className={`text-2xl ${righteous.className} text-white`}>AUMEGA</h2>
-                    <ul className='flex gap-[34px]'>
+                    <ul className='flex flex-col md:flex-row gap-[34px] text-center'>
                         {
                             navs.map((link: INavigation, index: number) => (
                                 <li className='sub-title text-white hover:text-[#d87d4a] uppercase text-xs' key={index}>
@@ -40,12 +40,12 @@ export default function Footer() {
                     </ul>
                 </div>
 
-                <div className='flex justify-between mb-14'>
+                <div className='flex flex-col md:flex-row justify-between mb-14 gap-10 px-8 md:px-0 items-start md:items-center'>
 
 
 
-                    <p className='text-[rgba(255,255,255,0.5)] max-w-[540px] text-sm'>Transform your interior into a sanctuary of sophistication with our exquisite wood veneers. Crafted with precision and passion, each piece embraces the natural allure of wood, infusing warmth and character into every corner of your space. Elevate your design aesthetic and indulge in the timeless charm of wood veneers, where artistry meets functionality for an ambiance that resonates with elegance.</p>
-                    <ul className='flex items-end gap-4'>
+                    <p className='text-[rgba(255,255,255,0.5)] max-w-[540px] text-sm text-center md:text-start'>Transform your interior into a sanctuary of sophistication with our exquisite wood veneers. Crafted with precision and passion, each piece embraces the natural allure of wood, infusing warmth and character into every corner of your space. Elevate your design aesthetic and indulge in the timeless charm of wood veneers, where artistry meets functionality for an ambiance that resonates with elegance.</p>
+                    <ul className='flex items-center md:items-end gap-4 justify-center md:justify-end w-full'>
 
 
                         <li>
@@ -66,7 +66,7 @@ export default function Footer() {
                         </li>
                     </ul>
                 </div>
-                <p className='text-[rgba(255,255,255,0.5)] max-w-[540px] text-xs'>Copyright 2024. All Rights Reserved</p>
+                <p className='text-[rgba(255,255,255,0.5)] max-w-[540px] text-xs text-center md:text-start'>Copyright 2024. All Rights Reserved</p>
             </div>
         </footer>
     )

@@ -3,7 +3,7 @@ import React from 'react'
 export default function page() {
     return (
         <section className="overflow-hidden mt-32">
-            <div className="container px-4 mx-auto pt-16 pb-20">
+            <div className="container px-4 mx-auto pb-20">
                 <div className="flex flex-wrap -mx-4">
                     <div className="w-full lg:w-1/2 p-4">
                         <div className="max-w-xl mx-auto">
