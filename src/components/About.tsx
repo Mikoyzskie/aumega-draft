@@ -70,7 +70,7 @@ export default function About() {
                         <div className="md:border-r border-gray-200 px-12">
                             <p className="text-gray-600 mb-2 text-center">Team Projects</p>
                             <h2 className="text-4xl lg:text-5xl font-semibold text-center">
-                                110
+                                111
                             </h2>
                         </div>
                     </div>
