@@ -1,13 +1,20 @@
 import React from 'react'
 import { righteous } from "@/app/font"
 import Link from "next/link"
+import Image from 'next/image'
 
 export default function Header() {
     return (
         <header className='glass w-full mx-auto py-6 px-6 md:px-0 absolute top-0 inset-x-0 z-10'>
             <div className='max-w-screen-xl w-full mx-auto flex justify-between items-center'>
                 <Link href={"/"}>
-                    <h2 className={`text-2xl ${righteous.className}`}>AUMEGA</h2>
+                    <Image
+                        src={"/aumegalogo.png"}
+                        alt='aumega logo'
+                        width={831}
+                        height={196}
+                        className='h-[60px] w-[300px] object-contain'
+                    />
                 </Link>
                 <div className='hidden md:flex gap-10 uppercase text-xs font-bold tracking-wider'>
                     <Link href={"/projects"}>Projects</Link>
